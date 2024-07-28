@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #F5F9F9;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+
+}
+
+.top input {
+    outline: none;
+    height: 43px;
+    width: 230px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    color: rgb(124, 124, 124);
+    background-color: #dff3f3;
+    padding: 0px 15px;
+
+}
+
+.top button {
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    border: none;
+    background-color: #F5F9F9;
+}
+
+.top button i {
+    font-size: 18px;
+    color: rgb(147, 146, 146);
+}
+
+.wether-img img {
+    height: 150px;
+    width: 150px;
+}
+
+.wether-tem {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -30px;
+
+}
+
+.city-name {
+    font-size: 29px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.wether-wind-speed-humadity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: -20px;
+}
+
+.wether-humadity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.wether-humadity img {
+    height: 30px;
+    width: 30px;
+
+}
+
+.wether-wind-speed img {
+    height: 30px;
+    width: 30px;
+}
+
+.wether-wind-speed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.font{
+    margin-top: 25px;
+font-size: 20px;
+}
+
+.wfont2{
+    font-size: 15px; 
+}

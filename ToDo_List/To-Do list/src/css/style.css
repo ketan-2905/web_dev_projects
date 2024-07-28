@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.to-do-layout {
+  background-color: white;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  min-width: 470px;
+  border-radius: 15px;
+
+}
+
+.heading {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+.heading img {
+  width: 50px;
+  height: 50px;
+}
+
+.add-task {
+  margin-top: 20px;
+  display: flex;
+  background-color: rgb(220, 215, 215);
+  border-radius: 40px;
+}
+
+.add-task #add-task {
+  flex: 1;
+  padding: 15px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background-color: rgb(220, 215, 215);
+}
+
+.add-task .add-task-btn {
+  height: 60px;
+  width: 120px;
+  background-color: rgb(248, 101, 48);
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.complet-clear-Section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complet-clear-Section:hover {
+  cursor: pointer;
+}
+
+.complet-clear-Section .remove_complet,.complet-clear-Section .clear,.complet-task-no {
+  font-size: 15px;
+}
+
+.complet-task-no {
+  margin-top: 40px;
+}
+
+ul {
+  margin-top: 30px;
+  padding: 0px 5px;
+  list-style: none;
+  position: relative;
+}
+
+ul li {
+  font-size: 18px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul li::before {
+  content: '';
+  background: url(Image/unchecked.png);
+  background-size: cover;
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  margin: 10px;
+
+}
+
+ul li.checked {
+  text-decoration: line-through;
+
+}
+
+ul li.checked::before {
+  background: url(Image/checked.png);
+  background-size: cover;
+}
+
+.to-do-Text{
+  max-width: 427px;
+}
+
+span {
+  font-size: 32px;
+  color: rgb(72, 71, 71);
+  position: absolute;
+  right: 0px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+span:hover {
+  background-color: rgb(200, 198, 198);
+  border-radius: 50%;
+}
+
+/* .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 30px;
+  
+}
+
+.task-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.checker {
+  border: 2px solid rgb(220, 215, 215);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  background: transparent;
+  font-size: 20px;
+  color: white;
+}
+
+.checkeradd{
+  background-color:rgb(248, 101, 48) ;
+}
+
+.task-text {
+  font-size: 18px;
+}
+
+.task-remove {
+  border: none;
+  background: transparent;
+ 
+  color: rgb(72, 71, 71);
+
+} */
