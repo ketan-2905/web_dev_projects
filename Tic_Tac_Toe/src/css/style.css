@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.tic-tac-toe-body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #14BDAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.turns{
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem ;
+}
+
+.turn{
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color:#0DA192;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+.scale{
+    transform: scale(1.5);
+}
+
+.win-count{
+    position: absolute;
+    top: 6rem;
+    left: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem ;
+}
+
+.win{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color:#0DA192;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+
+.tic-tac-toe-winnwer-layout{
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem ;
+}
+
+.tic-tac-toe-gride-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 6rem);
+    grid-template-rows: repeat(3, 6rem);
+    gap: 0rem;
+}
+
+button{
+    background-color: #14BDAC;
+    border: none;
+    height: 6rem;
+    width: 6rem;
+    font-size: 3.8rem;
+    border-radius: 0.1rem;
+}
+
+ .one , .four{
+border-right:0.5rem solid #0DA192;
+border-bottom:0.5rem solid #0DA192;
+}
+
+.three , .six{
+    border-left:0.5rem solid #0DA192;
+    border-bottom:0.5rem solid #0DA192;
+}
+
+.seven{
+    color: #545454;
+    border-right:0.5rem solid #0DA192;
+}
+
+.nine{
+    border-left:0.5rem solid #0DA192;
+}
+
+.five{
+    border-bottom:0.5rem solid #0DA192;
+}
+
+.two{
+    color: #F2EBD3;
+    border-bottom: 0.5rem solid #0DA192;  
+}
+
+.X{
+    color: #545454;
+}
+
+.O{
+    color: #F2EBD3;
+}
+
+.winner-symbol{
+    font-size: 6rem;
+    text-align: center;
+}
+
+.winner-text{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #545454;
+}
+
+.textBlur{
+    color: rgba(0, 0, 0, 0.4);
+}
+.restart-game{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    bottom: 3rem; 
+}
+
+.restart{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #0DA192;
+    border-radius: 2rem; 
+}
+
