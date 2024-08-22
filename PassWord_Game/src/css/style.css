@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+img {
+  width:396.09px ;
+  margin: 2px;
+
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: blanchedalmond;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading{
+  margin-top: 150px;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.password{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: .8vw;
+  font-size: 1.6vh;
+}
+
+.password-filed{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#password-filed{
+  height: 5.2vh;
+  width: 25vw;
+  border-radius: 8px;
+  font-size: 1vw;
+  color: rgb(108, 105, 105);
+  padding: 10px;
+  font-family: "Kode Mono", monospace;
+
+}
+
+
+#password-filed:focus {
+  color: black; 
+  font-size: 1.1vw;
+
+}
+
+.char-count{
+  transform: translateY(-50%);
+}
+
+.rules-section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  
+  gap: 10px;
+  overflow: auto;
+  height: 60vh;
+}
+
+.rules-section::-webkit-scrollbar {
+  width: 0;
+}
+
+.hide{
+  display: none;
+}
+/* for red */
+/* .rule-1R{
+  padding: 0px 4px 0px 0px;
+} */
+
+
+
+
+
+/* .ruleR::before{
+  font-family: 'Font Awesome 5 solid ';
+  font-size: 12px;
+  content: "\e32f";
+  color: #BE4954;
+  position:absolute ; 
+  top: 8px;
+  left: 7px;
+  /* \f05d }
+*/
+
+.ruleR{
+  border: 2px solid #BE4954;
+  width: 404.09px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.ruleR :nth-child(1){
+  padding: 6px 4px;
+  background-color: #FFBEC0;
+  font-size: 1.6vh;
+  border-radius: 8px 8px 0px 0px; 
+}
+
+.ruleR :nth-child(2){
+   padding: 10px;
+  background-color: #FFE7E9;
+  font-size: 1.6vh; 
+  border-radius: 0px 0px 8px 8px;  
+}
+
+.colourR{
+  color: #BE4954;
+}
+
+/* for green */
+.ruleG{
+  border: 2px solid #49914D ;
+  width: 404.09px;
+  border-radius: 8px;
+  font-size: 1.8vh;
+  position: relative;
+}
+
+.ruleG :nth-child(1){
+  padding: 6px 4px;
+  background-color: #A3EFA4;
+  font-size: 1.6vh;
+  border-radius: 8px 8px 0px 0px;  
+}
+
+.ruleG :nth-child(2){
+  padding: 10px;
+  background-color: #DCFEDC; 
+  font-size: 1.6vh;
+  border-radius: 0px 0px 8px 8px;   
+}
+
+.colourG{
+  color: #49914D;
+}
+
